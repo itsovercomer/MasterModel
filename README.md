@@ -104,12 +104,6 @@ $this->user_model->where('id > ',5)->orderBy('id','DESC')->get(); // DESC
 $this->user_model->limit(0,10)->get(); // returns 10 rows, starting from 0
 ```
 
-**Get count**
-
-```
-$this->user_model->where('id > ',5)->count(); // int
-```
-
 ### Acknowledgments
 
 Inspired by [Laravel](https://laravel.com).
